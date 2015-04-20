@@ -1,0 +1,15 @@
+{
+  "name": "babel-browserify-commonjs-compat",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samwgoldman/bel-browserify-commonjs-compat"
+  },
+  "scripts": {
+    "build": "browserify es6.js -t babelify > out.js"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browserify": "^9.0.8"
+  }
+}
